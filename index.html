@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AgentPing has been discontinued</title>
+  <meta name="description" content="AgentPing, the phone-call alert service for AI agents, has been discontinued. Built by Sparkling AI AB." />
+  <meta name="robots" content="noindex" />
+  <link rel="icon" href="agentping-mark.svg" type="image/svg+xml" />
+  <style>
+    :root {
+      --bg: #fafafa;
+      --fg: #171717;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --card: #ffffff;
+      --accent: #0ea5e9;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0a0a0a;
+        --fg: #ededed;
+        --muted: #9ca3af;
+        --border: #262626;
+        --card: #111111;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; margin: 0; }
+    body {
+      background: var(--bg);
+      color: var(--fg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    .card {
+      max-width: 480px;
+      width: 100%;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 40px 36px;
+      text-align: center;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    }
+    .mark { width: 48px; height: 48px; margin: 0 auto 20px; display: block; }
+    h1 { font-size: 1.5rem; margin: 0 0 12px; letter-spacing: -0.02em; }
+    p { color: var(--muted); margin: 0 0 16px; font-size: 0.975rem; }
+    p:last-of-type { margin-bottom: 0; }
+    a { color: var(--accent); text-decoration: none; font-weight: 500; }
+    a:hover { text-decoration: underline; }
+    .divider { height: 1px; background: var(--border); margin: 28px 0; border: 0; }
+    .footer { font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <img class="mark" src="agentping-mark.svg" alt="AgentPing" />
+    <h1>AgentPing has been discontinued</h1>
+    <p>
+      Thank you to everyone who tried AgentPing. The service is no longer
+      operating, and phone-call and SMS alerts are no longer being delivered.
+    </p>
+    <p>
+      Any account data has been removed. If you have questions, you can reach us
+      at <a href="mailto:contact@agentping.me">contact@agentping.me</a>.
+    </p>
+    <hr class="divider" />
+    <p class="footer">
+      AgentPing was built by
+      <a href="https://www.sparkling-ai.com" rel="noopener">Sparkling AI AB</a>.
+    </p>
+  </main>
+</body>
+</html>
